@@ -1,0 +1,4 @@
+git remote add origin https://github.com/jay-021/Python_100_Days_With_CWH
+git add .
+git commit -m "filename"
+git push origin main
