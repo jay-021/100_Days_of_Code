@@ -25,4 +25,3 @@ try :
 except ValueError as e :
     
     print(e, "or in simple word you have to enter int value")
-        
