@@ -4,13 +4,13 @@ print(len(str1))
 print(str1.upper())
 print(str1.lower())
 
-# rstrip() mathod remove external charecters from your stiring
+# rstrip() method remove external characters from your string
 str1 = " Doremon ***** **"
 print(str1.rstrip("*"))
 str1 = " *** Doremon *******"
 print(str1.rstrip("*"))
 
-# split() mathod split  your string into lists
+# split() method split  your string into lists
 
 print(str1.replace("Doremon", "Nobita"))
 print(str1.split(" "))
@@ -24,35 +24,35 @@ print(len(heading))
 print(heading.center(70, "*"))
 print(len(heading.center(70)))
 
-# count() method count return the number of times the given value has occurred withing the given stringn.
+# count() method count return the number of times the given value has occurred withing the given string.
 print(heading.count("o"))  # o is 4 time in heading.
 
-# endswith() method chcecks if the stringn eneds with a given value in true false.
+# endswith() method checks if the string ends with a given value in true false.
 print(heading.endswith("thon "), " \t endswith()\t", heading)
 
 # we can even check for the value in-between the string by providing start and end index position.
 print(heading.endswith("oduc", 5, 9), " \t endswith()\t ",
       heading[5:9])  # now it's check slicing part
 
-# startswith() mehtod checks if the string starts with a given value
+# startswith() method checks if the string starts with a given value
 print(heading.startswith(" intro"), "\t startswith()\t", heading)
 
 # we can do same thing like in endswith
 print(heading.startswith("oduc", 5), '\t startswith()\t ', heading[5:9])
 
 
-# find () method searches for thhe first occurrence of the given vlaue and return the index where it is present.
+# find () method searches for the first occurrence of the given value and return the index where it is present.
 # if value is absent then it returns -1
 print(heading.find("oduc"))  # we already knew that it starts from 5
 
 # index() it's same as the find but if value is absent from the string then raise an exception error
 print(heading.index("oduc"))
 
-# isalnum() is check your string is alpha numberic or not
+# isalnum() is check your string is alpha numeric or not
 heading = "IntroductionToPython"
 print(heading.isalnum(), " \t isalnum()\t", heading)
 
-# isalpha() checks your stirng is only made with alphabetic
+# isalpha() checks your string is only made with alphabetic
 heading = "IntroductionToPython99"
 print(heading.isalpha(), " \t isalpha()\t", heading)
 
@@ -67,8 +67,8 @@ print(heading.isupper(), " \t isupper() \t", heading)
 heading = "Introduction\t To python"
 print(heading.isprintable(), " \t isprintable()\t", heading)
 
-# isspace() returns true onlly and onlly if the string contains white space, else return false
-heading = "     "  # space using spacebar
+# isspace() returns true only and only if the string contains white space, else return false
+heading = "     "  # space using spacbar
 print(heading.isspace(), " \t isspace() \t using spacebar")
 heading = "     "  # space using tab
 print(heading.isspace(), " \t isspace() \t using tab")
